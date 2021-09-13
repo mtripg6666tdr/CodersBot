@@ -1,0 +1,26 @@
+{
+  "name": "coders-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/lib.js",
+  "types": "typings/lib.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "postinstall": "tsc",
+    "start": "node dist"
+  },
+  "keywords": [],
+  "author": "mtripg6666tdr",
+  "private": true,
+  "license": "MIT",
+  "dependencies": {
+    "discord.js-light": "^3.5.11",
+    "dotenv": "^10.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.9.1",
+    "@types/ws": "^7.4.7",
+    "typescript": "^4.4.3"
+  }
+}

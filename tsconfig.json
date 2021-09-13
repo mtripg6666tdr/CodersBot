@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "allowJs": false,
+    "esModuleInterop": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "module": "CommonJS",
+    "target": "ES2019",
+    "outDir": "dist/",
+    "declaration": true,
+    "declarationDir": "typings/"
+  },
+  "include": [
+    "./src/**/*.ts"
+  ]
+}
